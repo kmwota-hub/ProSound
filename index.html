@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ProSound Kenya | Sound Systems & Equipment</title>
+
+    <meta
+        name="description"
+        content="Professional sound system building, equipment rental, speaker repair and event sound services."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-volume-high"></i>
+            </span>
+
+            <span>
+                <strong>PROSOUND</strong>
+                <small>KENYA</small>
+            </span>
+        </a>
+
+        <nav id="mainNav">
+
+            <a href="#home">Home</a>
+            <a href="#equipment">Equipment</a>
+            <a href="#rentals">Rentals</a>
+            <a href="#repairs">Repairs</a>
+            <a href="#quotes">Quotes</a>
+            <a href="#contact">Contact</a>
+
+            <button
+                class="nav-dashboard"
+                onclick="openDashboard()"
+            >
+                <i class="fa-solid fa-chart-line"></i>
+                Dashboard
+            </button>
+
+        </nav>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open menu"
+        >
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <span class="badge">
+            <i class="fa-solid fa-circle-check"></i>
+            Professional Sound Solutions
+        </span>
+
+        <h1>
+            Sound That
+            <span>Moves People.</span>
+        </h1>
+
+        <p>
+            Custom church sound systems, professional equipment rentals,
+            speaker & mixer repairs and complete event sound solutions.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#equipment" class="btn btn-primary">
+                <i class="fa-solid fa-box"></i>
+                Browse Equipment
+            </a>
+
+            <a href="#quotes" class="btn btn-outline">
+                <i class="fa-solid fa-file-invoice"></i>
+                Get a Quote
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>100+</strong>
+                <span>Events Supported</span>
+            </div>
+
+            <div>
+                <strong>50+</strong>
+                <span>Equipment Units</span>
+            </div>
+
+            <div>
+                <strong>10+</strong>
+                <span>Years Experience</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     QUICK SERVICES
+========================= -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                WHAT WE DO
+            </span>
+
+            <h2>
+                Complete Sound Solutions
+            </h2>
+
+            <p>
+                Everything you need for professional sound production.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-speaker-deck"></i>
+                </div>
+
+                <h3>Custom Sound Systems</h3>
+
+                <p>
+                    We build and customize church and event sound systems
+                    according to your requirements.
+                </p>
+
+                <a href="#quotes">
+                    Request System →
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-music"></i>
+                </div>
+
+                <h3>Equipment Rental</h3>
+
+                <p>
+                    Rent speakers, mixers, microphones, amplifiers,
+                    keyboards and other professional equipment.
+                </p>
+
+                <a href="#equipment">
+                    Browse Equipment →
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <h3>Repairs</h3>
+
+                <p>
+                    Bring your faulty speakers, mixers and audio equipment
+                    for professional diagnosis and repair.
+                </p>
+
+                <a href="#repairs">
+                    Request Repair →
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EQUIPMENT
+========================= -->
+
+<section class="section dark-section" id="equipment">
+
+    <div class="container">
+
+        <div class="section-heading light">
+
+            <span class="section-label">
+                EQUIPMENT RENTAL
+            </span>
+
+            <h2>
+                Available Equipment
+            </h2>
+
+            <p>
+                Select equipment to see rental pricing and availability.
+            </p>
+
+        </div>
+
+
+        <div class="equipment-tools">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-search"></i>
+
+                <input
+                    type="text"
+                    id="equipmentSearch"
+                    placeholder="Search speakers, mixers, microphones..."
+                >
+
+            </div>
+
+
+            <div class="filter-buttons">
+
+                <button
+                    class="filter-btn active"
+                    data-category="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-category="speakers"
+                >
+                    Speakers
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-category="mixers"
+                >
+                    Mixers
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-category="microphones"
+                >
+                    Microphones
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-category="amplifiers"
+                >
+                    Amplifiers
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-category="keyboards"
+                >
+                    Keyboards
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="equipment-grid"
+            id="equipmentGrid"
+        ></div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     RENTAL SYSTEM
+========================= -->
+
+<section class="section" id="rentals">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                RENT EQUIPMENT
+            </span>
+
+            <h2>
+                Book Equipment
+            </h2>
+
+            <p>
+                Select your equipment and calculate an estimated rental cost.
+            </p>
+
+        </div>
+
+
+        <div class="booking-layout">
+
+            <div class="booking-info">
+
+                <div class="booking-icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+
+                <h3>
+                    Event Equipment Booking
+                </h3>
+
+                <p>
+                    Tell us what you need and when you need it.
+                    We'll confirm availability and finalize your booking.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        Flexible rental periods
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        Professional equipment
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        Event delivery available
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        Sound technicians available
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <form
+                class="form-card"
+                id="rentalForm"
+            >
+
+                <h3>
+                    Rental Request
+                </h3>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Customer Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="rentalName"
+                        required
+                        placeholder="Your full name"
+                    >
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="rentalPhone"
+                            required
+                            placeholder="+254 7XX XXX XXX"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Equipment
+                        </label>
+
+                        <select
+                            id="rentalEquipment"
+                            required
+                        >
+
+                            <option value="">
+                                Select equipment
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Start Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="rentalStart"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            End Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="rentalEnd"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Event Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="rentalLocation"
+                        placeholder="e.g. Juja, Nairobi"
+                    >
+
+                </div>
+
+
+                <div class="estimate-box">
+
+                    <span>
+                        Estimated Total
+                    </span>
+
+                    <strong id="rentalTotal">
+                        KSh 0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full-width"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Request Rental
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     REPAIRS
+========================= -->
+
+<section
+    class="section gray-section"
+    id="repairs"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                REPAIR SERVICES
+            </span>
+
+            <h2>
+                Repair Your Equipment
+            </h2>
+
+            <p>
+                Submit your equipment problem and we'll get back to you.
+            </p>
+
+        </div>
+
+
+        <div class="repair-layout">
+
+            <div class="repair-features">
+
+                <div class="feature-row">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div>
+                        <h3>Diagnosis</h3>
+                        <p>
+                            We identify the source of the problem.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="feature-row">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <div>
+                        <h3>Professional Repair</h3>
+                        <p>
+                            Faulty components are repaired or replaced.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="feature-row">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+
+                    <div>
+                        <h3>Testing</h3>
+                        <p>
+                            Equipment is tested before collection.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="form-card"
+                id="repairForm"
+            >
+
+                <h3>
+                    Submit Repair Request
+                </h3>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Customer Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="repairName"
+                        required
+                        placeholder="Your full name"
+                    >
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="repairPhone"
+                            required
+                            placeholder="+254 7XX XXX XXX"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Equipment
+                        </label>
+
+                        <select id="repairEquipment">
+
+                            <option>
+                                Speaker
+                            </option>
+
+                            <option>
+                                Mixer
+                            </option>
+
+                            <option>
+                                Amplifier
+                            </option>
+
+                            <option>
+                                Microphone
+                            </option>
+
+                            <option>
+                                Keyboard
+                            </option>
+
+                            <option>
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Describe the Problem
+                    </label>
+
+                    <textarea
+                        id="repairProblem"
+                        rows="5"
+                        required
+                        placeholder="Describe what is wrong with the equipment..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full-width"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Submit Repair Request
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     QUOTE SYSTEM
+========================= -->
+
+<section
+    class="section"
+    id="quotes"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                EVENT QUOTE
+            </span>
+
+            <h2>
+                Request a Custom Quote
+            </h2>
+
+            <p>
+                Planning an event? Tell us what you need.
+            </p>
+
+        </div>
+
+
+        <form
+            class="quote-form"
+            id="quoteForm"
+        >
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label>
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="quoteName"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="quotePhone"
+                        placeholder="+254 7XX XXX XXX"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label>
+                        Event Type
+                    </label>
+
+                    <select id="eventType">
+
+                        <option>
+                            Church Service
+                        </option>
+
+                        <option>
+                            Wedding
+                        </option>
+
+                        <option>
+                            Birthday
+                        </option>
+
+                        <option>
+                            Concert
+                        </option>
+
+                        <option>
+                            Corporate Event
+                        </option>
+
+                        <option>
+                            Funeral
+                        </option>
+
+                        <option>
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Number of Guests
+                    </label>
+
+                    <input
+                        type="number"
+                        id="guestCount"
+                        min="1"
+                        placeholder="e.g. 300"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Equipment Required
+                </label>
+
+                <div class="checkbox-grid">
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Speakers"
+                            class="quote-equipment"
+                        >
+                        Speakers
+                    </label>
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Mixer"
+                            class="quote-equipment"
+                        >
+                        Mixer
+                    </label>
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Microphones"
+                            class="quote-equipment"
+                        >
+                        Microphones
+                    </label>
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Amplifiers"
+                            class="quote-equipment"
+                        >
+                        Amplifiers
+                    </label>
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Keyboard"
+                            class="quote-equipment"
+                        >
+                        Keyboard
+                    </label>
+
+                    <label class="check-card">
+                        <input
+                            type="checkbox"
+                            value="Technician"
+                            class="quote-equipment"
+                        >
+                        Sound Technician
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Additional Information
+                </label>
+
+                <textarea
+                    id="quoteMessage"
+                    rows="5"
+                    placeholder="Tell us anything else about your event..."
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                <i class="fa-brands fa-whatsapp"></i>
+                Request Quote
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section
+    class="contact-section"
+    id="contact"
+>
+
+    <div class="container">
+
+        <div class="contact-grid">
+
+            <div>
+
+                <span class="section-label">
+                    CONTACT US
+                </span>
+
+                <h2>
+                    Let's Build Your Sound.
+                </h2>
+
+                <p>
+                    Whether you need a complete sound system,
+                    equipment rental or repair services,
+                    we're ready to help.
+                </p>
+
+                <div class="contact-details">
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+
+                        <span>
+                            <small>Call Us</small>
+                            <strong>+254791489541</strong>
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        <span>
+                            <small>WhatsApp</small>
+                            <strong>+254791489541</strong>
+                        </span>
+
+                    </div>
+
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            <small>Location</small>
+                            <strong>Juja, Kenya</strong>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                <h3>
+                    Need a Quick Response?
+                </h3>
+
+                <p>
+                    Chat with us directly on WhatsApp.
+                </p>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="openWhatsApp('Hello, I would like to know more about your sound services.')"
+                >
+                    Chat on WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <a href="#" class="logo">
+
+                <span class="logo-icon">
+                    <i class="fa-solid fa-volume-high"></i>
+                </span>
+
+                <span>
+                    <strong>PROSOUND</strong>
+                    <small>KENYA</small>
+                </span>
+
+            </a>
+
+            <p>
+                Professional sound solutions for churches,
+                events and businesses.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Services</h4>
+
+            <a href="#equipment">Equipment Rental</a>
+            <a href="#repairs">Repairs</a>
+            <a href="#quotes">Custom Systems</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+            <a href="#equipment">Equipment</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProSound Kenya. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     EQUIPMENT MODAL
+========================= -->
+
+<div
+    class="modal"
+    id="equipmentModal"
+>
+
+    <div class="modal-content">
+
+        <button
+            class="modal-close"
+            onclick="closeModal()"
+        >
+            ×
+        </button>
+
+        <div id="modalContent"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     ADMIN DASHBOARD
+========================= -->
+
+<div
+    class="dashboard-overlay"
+    id="dashboardOverlay"
+>
+
+    <div class="dashboard">
+
+        <div class="dashboard-header">
+
+            <div>
+
+                <span>
+                    ADMIN PANEL
+                </span>
+
+                <h2>
+                    Business Dashboard
+                </h2>
+
+            </div>
+
+            <button
+                onclick="closeDashboard()"
+                class="dashboard-close"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="dashboard-stats">
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-box"></i>
+
+                <span>
+                    Equipment
+                </span>
+
+                <strong id="dashboardEquipment">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                <span>
+                    Rentals
+                </span>
+
+                <strong id="dashboardRentals">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <span>
+                    Repairs
+                </span>
+
+                <strong id="dashboardRepairs">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-file-invoice"></i>
+
+                <span>
+                    Quotes
+                </span>
+
+                <strong id="dashboardQuotes">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="stat-card revenue">
+
+                <i class="fa-solid fa-money-bill-wave"></i>
+
+                <span>
+                    Revenue
+                </span>
+
+                <strong id="dashboardRevenue">
+                    KSh 0
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="dashboard-section">
+
+            <div class="dashboard-section-header">
+
+                <h3>
+                    Recent Activity
+                </h3>
+
+                <button
+                    onclick="clearBusinessData()"
+                    class="danger-btn"
+                >
+                    Clear Demo Data
+                </button>
+
+            </div>
+
+
+            <div id="activityList">
+
+                <div class="empty-state">
+                    No activity yet.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     FLOATING WHATSAPP
+========================= -->
+
+<button
+    class="floating-whatsapp"
+    onclick="openWhatsApp('Hello, I would like to enquire about your sound services.')"
+>
+    <i class="fa-brands fa-whatsapp"></i>
+</button>
+
+
+<!-- =========================
+     BACK TO TOP
+========================= -->
+
+<button
+    id="backToTop"
+    class="back-top"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
